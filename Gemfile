@@ -62,6 +62,13 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'hyrax', '2.9.0'
+
+gem "blacklight-access_controls", '~> 0.6.0'
+gem "hydra-head", '11.0.0'
+gem "hydra-access-controls", '11.0.0'
+
+
+
 group :development, :test do
   gem 'solr_wrapper', '>= 0.3'
 end
