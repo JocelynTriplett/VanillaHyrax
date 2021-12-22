@@ -5,5 +5,7 @@ module Hyrax
   class MediaForm < Hyrax::Forms::WorkForm
     self.model_class = ::Media
     self.terms += [:resource_type]
+
+    self.required_fields = [:title]
   end
 end
